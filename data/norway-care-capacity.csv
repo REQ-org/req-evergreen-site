@@ -1,0 +1,15 @@
+year,metric,value,unit,kind,source,source_url,notes
+2021,sykehjem_disponible_plasser,39054,places,observed,SSB KOSTRA sjukeheimar,https://www.ssb.no/helse/helsetjenester/statistikk/sjukeheimar-heimetenester-og-andre-omsorgstenester,Per 31.12
+2022,sykehjem_disponible_plasser,39114,places,observed,SSB KOSTRA sjukeheimar,https://www.ssb.no/helse/helsetjenester/statistikk/sjukeheimar-heimetenester-og-andre-omsorgstenester,
+2023,sykehjem_disponible_plasser,39754,places,observed,SSB KOSTRA sjukeheimar,https://www.ssb.no/helse/helsetjenester/statistikk/sjukeheimar-heimetenester-og-andre-omsorgstenester,
+2024,sykehjem_disponible_plasser,39816,places,observed,SSB KOSTRA sjukeheimar,https://www.ssb.no/helse/helsetjenester/statistikk/sjukeheimar-heimetenester-og-andre-omsorgstenester,
+2025,sykehjem_disponible_plasser,39727,places,observed,SSB KOSTRA sjukeheimar,https://www.ssb.no/helse/helsetjenester/statistikk/sjukeheimar-heimetenester-og-andre-omsorgstenester,Plasser flater ut mens 80+ vokser
+2021,institusjoner_plasser_totalt,39305,places,observed,SSB KOSTRA sjukeheimar,https://www.ssb.no/helse/helsetjenester/statistikk/sjukeheimar-heimetenester-og-andre-omsorgstenester,Inkl. aldersheim
+2022,institusjoner_plasser_totalt,39337,places,observed,SSB KOSTRA sjukeheimar,https://www.ssb.no/helse/helsetjenester/statistikk/sjukeheimar-heimetenester-og-andre-omsorgstenester,
+2023,institusjoner_plasser_totalt,39976,places,observed,SSB KOSTRA sjukeheimar,https://www.ssb.no/helse/helsetjenester/statistikk/sjukeheimar-heimetenester-og-andre-omsorgstenester,
+2024,institusjoner_plasser_totalt,40002,places,observed,SSB KOSTRA sjukeheimar,https://www.ssb.no/helse/helsetjenester/statistikk/sjukeheimar-heimetenester-og-andre-omsorgstenester,
+2025,institusjoner_plasser_totalt,39915,places,observed,SSB KOSTRA sjukeheimar,https://www.ssb.no/helse/helsetjenester/statistikk/sjukeheimar-heimetenester-og-andre-omsorgstenester,
+2025,andel_private_plasser,8.4,percent,observed,SSB KOSTRA sjukeheimar,https://www.ssb.no/helse/helsetjenester/statistikk/sjukeheimar-heimetenester-og-andre-omsorgstenester,
+2025,andel_80plus_med_hjemmetjeneste,24.8,percent,observed,SSB KOSTRA sjukeheimar,https://www.ssb.no/helse/helsetjenester/statistikk/sjukeheimar-heimetenester-og-andre-omsorgstenester,Av innbyggere 80+
+2024,beboere_sykehjem_ca,37000,persons,observed_rounded,SSB artikkel Sykehjem og hjemmetjenesten,https://www.ssb.no/helse/helsetjenester/artikler/sykehjem-og-hjemmetjenesten-i-norge,Ca. 37 000; tre av fire er 80+
+2024,hjemmetjeneste_brukere_80plus_ca,70000,persons,observed_rounded,SSB artikkel Sykehjem og hjemmetjenesten,https://www.ssb.no/helse/helsetjenester/artikler/sykehjem-og-hjemmetjenesten-i-norge,

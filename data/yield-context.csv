@@ -1,0 +1,18 @@
+year,series,value_pct,kind,source,source_url,notes
+2015,norway_govt_10y_annual,1.57,observed,OECD via FRED IRLTLT01NOA156N,https://fred.stlouisfed.org/series/IRLTLT01NOA156N,Årsgjennomsnitt. Ikke fondsavkastning
+2016,norway_govt_10y_annual,1.33,observed,OECD via FRED IRLTLT01NOA156N,https://fred.stlouisfed.org/series/IRLTLT01NOA156N,
+2017,norway_govt_10y_annual,1.64,observed,OECD via FRED IRLTLT01NOA156N,https://fred.stlouisfed.org/series/IRLTLT01NOA156N,
+2018,norway_govt_10y_annual,1.88,observed,OECD via FRED IRLTLT01NOA156N,https://fred.stlouisfed.org/series/IRLTLT01NOA156N,
+2019,norway_govt_10y_annual,1.49,observed,OECD via FRED IRLTLT01NOA156N,https://fred.stlouisfed.org/series/IRLTLT01NOA156N,
+2020,norway_govt_10y_annual,0.82,observed,OECD via FRED IRLTLT01NOA156N,https://fred.stlouisfed.org/series/IRLTLT01NOA156N,
+2021,norway_govt_10y_annual,1.42,observed,OECD via FRED IRLTLT01NOA156N,https://fred.stlouisfed.org/series/IRLTLT01NOA156N,
+2022,norway_govt_10y_annual,2.88,observed,OECD via FRED IRLTLT01NOA156N,https://fred.stlouisfed.org/series/IRLTLT01NOA156N,
+2023,norway_govt_10y_annual,3.44,observed,OECD via FRED IRLTLT01NOA156N,https://fred.stlouisfed.org/series/IRLTLT01NOA156N,
+2024,norway_govt_10y_annual,3.58,observed,OECD via FRED IRLTLT01NOA156N,https://fred.stlouisfed.org/series/IRLTLT01NOA156N,
+2025,norway_govt_10y_annual,3.95,observed,OECD via FRED IRLTLT01NOA156N,https://fred.stlouisfed.org/series/IRLTLT01NOA156N,
+2026,norway_govt_10y_generic_latest,4.51,observed_daily,Norges Bank generisk 10-års statsrente 16. sep 2026,https://www.norges-bank.no/en/topics/Statistics/norwegian-government-securities/generiske-statsrenter/,Dagsobservasjon — ikke årsgjennomsnitt
+2025,oslo_prime_office_cbd_yield,4.50,broker_estimate,JLL Insight Office Nordics (Oslo 2025),https://www.jll.com/en-us/insights/market-outlook/nordics-office,Prime yield CBD. Markedsestimat ikke fond
+2025,oslo_prime_office_fringe_yield,5.50,broker_estimate,JLL Insight Office Nordics (Oslo 2025),https://www.jll.com/en-us/insights/market-outlook/nordics-office,Fringe office
+2025,norway_prime_logistics_yield,5.50,broker_estimate,CBRE Norway I&L Figures H1 2025,https://www.cbre.no/en-gb/insights/figures/norway-industrial-and-logistics-market-figures-h1-2024,H1 2025 5.50% (H1 2024 var 5.75%)
+2026,evergreen_return_target_low,6.00,target,Estate Nyheter 26. mai 2026 om REQ Evergreen Income Fund,https://www.estatenyheter.no/karriere-req/req-lanserer-nytt-eiendomsfond-henter-toppforvalter-fra-oljefondet/507530,MÅL for fondet. Ikke historikk. Ikke yield på en eiendom
+2026,evergreen_return_target_high,8.00,target,Estate Nyheter 26. mai 2026 om REQ Evergreen Income Fund,https://www.estatenyheter.no/karriere-req/req-lanserer-nytt-eiendomsfond-henter-toppforvalter-fra-oljefondet/507530,MÅL. Vis som bånd 6–8 ikke som oppnådd kurve

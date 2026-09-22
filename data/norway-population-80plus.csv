@@ -1,0 +1,26 @@
+year,persons_80plus,kind,source,source_url,notes
+2010,220022,observed,SSB tabell 07459 (sum alder 80–105+ hele landet begge kjønn 1. januar),https://www.ssb.no/statbank/table/07459,Hentet via SSB API 2026-09-22
+2011,221153,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,
+2012,221583,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,
+2013,221585,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,
+2014,220760,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,
+2015,220437,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,
+2016,220025,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,
+2017,220980,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,
+2018,222752,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,
+2019,225999,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,
+2020,230710,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,
+2021,236407,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,
+2022,240293,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,
+2023,246360,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,
+2024,256485,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,Samme 2024-tall som SSB-framskrivingens startpunkt
+2025,270537,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,Observert; 14288 framskrev 270742
+2026,284939,observed,SSB tabell 07459,https://www.ssb.no/statbank/table/07459,Observert 1. jan 2026; 14288 framskrev 284670
+2027,303521,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,Framskriving 2024-runden (lukket serie)
+2028,320283,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+2030,348735,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+2031,361489,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+2035,408041,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+2040,464309,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+2045,519764,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+2050,590856,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,Mer enn dobling fra 2024. SSB-tekst: nesten 1 mill. innen 2100
