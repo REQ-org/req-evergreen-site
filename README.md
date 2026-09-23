@@ -23,7 +23,7 @@ Seks CSV-er. Bruk dem som de er. Ikke finn på tall.
 
 ## theme/
 
-REQ-look: `tokens.css` (farger, type, avstand), `brand.md`, logoer og foto. Hvordan bruke det: `theme/README.md`.
+REQ-look: `tokens.css` (farger, type, avstand), `brand.md`, logoer og foto-kilder. Hvordan bruke det: `theme/README.md`.
 
 ## Kom i gang med Claude Code
 
@@ -45,7 +45,7 @@ Les theme/README.md, theme/tokens.css og theme/brand.md. Bruk det temaet.
 Les data/evergreen-fund-facts.csv. Bruk bare den.
 
 Seksjoner, i denne rekkefølgen:
-1. Hero — navn, evergreen + ubelånt, «under etablering». Foto fra theme/assets/ (hero-climber.webp eller norway-fjord.webp), hvit logo.
+1. Hero — navn, evergreen + ubelånt, «under etablering». Foto fra URL-ene i theme/assets/CREDITS.md (req.no), hvit logo.
 2. Hvorfor dette — to søyler (demografi / beliggenhet).
 3. Avkastningsmål — 6–8 % merket MÅL, ikke historikk.
 4. Hvem det er for — pensjon, liv, stiftelse.

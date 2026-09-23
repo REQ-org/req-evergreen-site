@@ -10,9 +10,9 @@ REQ-temaet for investor-siden. Offentlig materiale fra [req-design-pack](https:/
 | `brand.md` | Regler: hvit bakgrunn, navy som én sterk aksent, logo, anti-slop. |
 | `assets/req-logo-navy.svg` | Logo på hvit flate. |
 | `assets/req-logo-white.svg` | Logo på navy, petrol eller foto. |
-| `assets/hero-climber.webp` | Hero fra req.no — klatrer mot fjell. |
-| `assets/norway-fjord.webp` | Header/seksjon fra req.no — norsk fjord. |
-| `assets/CREDITS.md` | Kilde og lisens per bilde. |
+| `assets/CREDITS.md` | Kilde og lisens for hero-foto. URL-ene peker på req.no (binære WebP er ikke i repoet). |
+
+Hero-foto fra req.no (klatrer, fjord): se `assets/CREDITS.md` for URL og `curl`. Bruk dem som full-bleed bakgrunn, eller last ned til `theme/assets/` før økten.
 
 ## I siden
 
