@@ -1,0 +1,77 @@
+/* REQ design tokens — from req-bootcamp/req-design-pack (public material only).
+   Source: brand.md / req.no. White surfaces, navy as the single strong accent.
+   Do not bundle TT Hoves Pro; it is licensed to REQ. */
+
+:root {
+  /* brand */
+  --req-navy: #001d6c;
+  --req-petrol: #005070;
+  --req-petrol-deep: #062533;
+  --req-petrol-blue: #007c9d;
+  --req-teal: #82c0c7;
+  --req-mist: #c8d8df;
+
+  /* neutrals */
+  --req-ink: #1a1a1a;
+  --req-grey: #666666;
+  --req-hairline: #e5e5e5;
+  --req-white: #ffffff;
+
+  /* semantic */
+  --req-bg: var(--req-white);
+  --req-text: var(--req-ink);
+  --req-text-secondary: var(--req-grey);
+  --req-accent: var(--req-navy);
+  --req-border: var(--req-hairline);
+  --req-surface-dark: var(--req-petrol);
+  --req-tint: var(--req-mist);
+
+  /* charts — series order for portfolio/KPI visuals */
+  --req-chart-1: var(--req-navy);
+  --req-chart-2: var(--req-petrol-blue);
+  --req-chart-3: var(--req-teal);
+  --req-chart-4: var(--req-grey);
+  --req-chart-negative: #8c1d18;
+
+  /* type — TT Hoves Pro is licensed; fallbacks carry the look elsewhere */
+  --req-font: "TT Hoves Pro", "Open Sans", Arial, sans-serif;
+  --req-font-document: Calibri, Carlito, Arial, sans-serif;
+  --req-text-xs: 0.8125rem;
+  --req-text-sm: 0.9375rem;
+  --req-text-md: 1rem;
+  --req-text-lg: 1.25rem;
+  --req-text-xl: 1.75rem;
+  --req-text-2xl: 2.5rem;
+  --req-leading: 1.55;
+  --req-leading-tight: 1.2;
+
+  /* spacing — restrained editorial rhythm */
+  --req-space-2xs: 0.25rem;
+  --req-space-xs: 0.5rem;
+  --req-space-sm: 0.75rem;
+  --req-space-md: 1rem;
+  --req-space-lg: 1.5rem;
+  --req-space-xl: 2.5rem;
+  --req-space-2xl: 4rem;
+  --req-space-3xl: 6rem;
+  --req-page-gutter: clamp(1.25rem, 4vw, 3rem);
+  --req-measure: 40rem;
+  --req-max-width: 72rem;
+
+  --req-radius: 2px; /* restrained — near-square corners, no pill shapes */
+}
+
+html {
+  font-family: var(--req-font);
+  color: var(--req-text);
+  background: var(--req-bg);
+  line-height: var(--req-leading);
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: var(--req-accent);
+}

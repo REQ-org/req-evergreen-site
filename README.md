@@ -21,6 +21,10 @@ Seks CSV-er. Bruk dem som de er. Ikke finn på tall.
 - `yield-context.csv` — 10-års statsrente (OECD/FRED, Norges Bank) mot avkastningsmål 6–8 %, pluss prime-yield som meglerestimat (JLL, CBRE).
 - `evergreen-real-estate-fund.csv` — seks offentlige referansepunkter for målsektorene. Alle rader har `is_evergreen_holding=nei`.
 
+## theme/
+
+REQ-look: `tokens.css` (farger, type, avstand), `brand.md`, logoer og foto. Hvordan bruke det: `theme/README.md`.
+
 ## Kom i gang med Claude Code
 
 Klon repoet og åpne mappen:
@@ -37,10 +41,11 @@ En første prompt:
 Bygg en investor-side for REQ Evergreen Income Fund i site/.
 Mottaker: profesjonell investor (pensjonskasse / liv / stiftelse).
 
+Les theme/README.md, theme/tokens.css og theme/brand.md. Bruk det temaet.
 Les data/evergreen-fund-facts.csv. Bruk bare den.
 
 Seksjoner, i denne rekkefølgen:
-1. Hero — navn, evergreen + ubelånt, «under etablering».
+1. Hero — navn, evergreen + ubelånt, «under etablering». Foto fra theme/assets/ (hero-climber.webp eller norway-fjord.webp), hvit logo.
 2. Hvorfor dette — to søyler (demografi / beliggenhet).
 3. Avkastningsmål — 6–8 % merket MÅL, ikke historikk.
 4. Hvem det er for — pensjon, liv, stiftelse.
@@ -49,9 +54,10 @@ Seksjoner, i denne rekkefølgen:
 7. Risiko / disclaimer — utkast til markedsmateriell, ikke tilbud.
 8. Neste steg — kontakt Sommerrogata 17.
 
-Hvit bakgrunn, navy #001D6C, bokmål, rolig vi-form.
+Lenk inn theme/tokens.css. Logo: theme/assets/req-logo-navy.svg på hvitt, req-logo-white.svg på foto.
+Hvit bakgrunn, navy via token, bokmål, rolig vi-form.
 5 mrd. er REQ-plattformen, ikke fondet.
-Ingen git, npm, deploy. Én HTML + ev. app.js.
+Ingen git, npm, deploy. Ikke pakk TT Hoves Pro. Én HTML + ev. app.js.
 Chart-plassholdere med id: chart-80plus, chart-age, chart-care, chart-yield.
 Stopp når siden åpner.
 ```
@@ -64,7 +70,7 @@ cd site && python3 -m http.server 8765
 
 Åpne [http://127.0.0.1:8765](http://127.0.0.1:8765). Port opptatt: `8766`.
 
-Grafer: Chart.js eller uPlot fra CDN. Hvit bakgrunn, navy `#001D6C`, petrol `#005070`. Ingen lilla.
+Grafer: Chart.js eller uPlot fra CDN. Farger og avstand fra `theme/tokens.css`. Ingen lilla.
 
 ## Hva siden skal vise
 
