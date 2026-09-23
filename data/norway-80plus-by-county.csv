@@ -1,0 +1,61 @@
+county_code,county,year,persons_80plus,kind,source,source_url,notes
+31,Østfold,2024,15432,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,Fylkesinndeling 2024. Hentet via SSB API 2026-09-23
+31,Østfold,2030,21749,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+31,Østfold,2040,28388,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+31,Østfold,2050,36764,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+138 % fra 2024
+32,Akershus,2024,30591,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+32,Akershus,2030,42803,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+32,Akershus,2040,56711,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+32,Akershus,2050,79243,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+159 % fra 2024
+03,Oslo,2024,23037,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+03,Oslo,2030,32083,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+03,Oslo,2040,44148,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+03,Oslo,2050,58176,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+153 % fra 2024
+34,Innlandet,2024,22494,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+34,Innlandet,2030,30073,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+34,Innlandet,2040,37908,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+34,Innlandet,2050,45538,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+102 % fra 2024
+33,Buskerud,2024,13214,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+33,Buskerud,2030,18291,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+33,Buskerud,2040,23730,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+33,Buskerud,2050,30012,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+127 % fra 2024
+39,Vestfold,2024,13226,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+39,Vestfold,2030,18087,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+39,Vestfold,2040,24438,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+39,Vestfold,2050,31096,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+135 % fra 2024
+40,Telemark,2024,9610,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+40,Telemark,2030,13234,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+40,Telemark,2040,17262,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+40,Telemark,2050,20751,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+116 % fra 2024
+42,Agder,2024,14743,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+42,Agder,2030,20065,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+42,Agder,2040,27244,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+42,Agder,2050,34678,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+135 % fra 2024
+11,Rogaland,2024,19457,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+11,Rogaland,2030,26029,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+11,Rogaland,2040,37287,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+11,Rogaland,2050,49483,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+154 % fra 2024
+46,Vestland,2024,31290,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+46,Vestland,2030,41506,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+46,Vestland,2040,55688,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+46,Vestland,2050,69233,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+121 % fra 2024
+15,Møre og Romsdal,2024,14411,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+15,Møre og Romsdal,2030,19139,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+15,Møre og Romsdal,2040,25916,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+15,Møre og Romsdal,2050,30599,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+112 % fra 2024
+50,Trøndelag,2024,23175,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+50,Trøndelag,2030,31136,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+50,Trøndelag,2040,40885,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+50,Trøndelag,2050,50895,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+120 % fra 2024
+18,Nordland,2024,13980,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+18,Nordland,2030,18312,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+18,Nordland,2040,23535,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+18,Nordland,2050,28334,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+103 % fra 2024
+55,Troms,2024,8358,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+55,Troms,2030,11400,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+55,Troms,2040,14814,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+55,Troms,2050,17928,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+115 % fra 2024
+56,Finnmark,2024,3467,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+56,Finnmark,2030,4828,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+56,Finnmark,2040,6355,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+56,Finnmark,2050,8126,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,+134 % fra 2024

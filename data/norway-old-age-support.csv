@@ -1,0 +1,8 @@
+year,persons_20_64,persons_80plus,persons_90plus,workers_per_80plus,kind,source,source_url,notes
+2024,3269753,256485,45734,12.75,projection_MMMM_baseyear,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,Hentet via SSB API 2026-09-23. workers_per_80plus = 20–64 delt på 80+
+2026,3316707,284670,45466,11.65,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,Framskrevet; observert 80+ 1. jan 2026 er 284939 (SSB 07459)
+2030,3357005,348735,51009,9.63,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+2035,3366437,408041,68582,8.25,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+2040,3352084,464309,96270,7.22,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+2045,3339961,519764,112134,6.43,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,
+2050,3317065,590856,131630,5.61,projection_MMMM,SSB tabell 14288 hovedalternativet MMMM,https://www.ssb.no/statbank/table/14288,90+ nesten tredobles fra 2024
