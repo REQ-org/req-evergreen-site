@@ -45,7 +45,7 @@ Les theme/README.md, theme/tokens.css og theme/brand.md. Bruk det temaet.
 Les data/evergreen-fund-facts.csv. Bruk bare den.
 
 Seksjoner, i denne rekkefølgen:
-1. Hero — navn, evergreen + ubelånt, «under etablering». Foto fra URL-ene i theme/assets/CREDITS.md (req.no), hvit logo.
+1. Hero — navn, evergreen + ubelånt, «under etablering». Foto: theme/assets/hero-climber.webp, hvit logo.
 2. Hvorfor dette — to søyler (demografi / beliggenhet).
 3. Avkastningsmål — 6–8 % merket MÅL, ikke historikk.
 4. Hvem det er for — pensjon, liv, stiftelse.
