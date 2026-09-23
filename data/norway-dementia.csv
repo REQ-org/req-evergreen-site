@@ -1,0 +1,7 @@
+year,metric,value,unit,kind,source,source_url,notes
+2025,personer_med_demens,115000,persons,estimate,FHI Folkehelserapporten: Demens (oppdatert 27.05.2026),https://www.fhi.no/he/fr/folkehelserapporten/ikke-smittsomme/demens/,Om lag 115 000. HUNT4 70+ og Tromsøundersøkelsen
+2030,personer_med_demens,135000,persons,projection,FHI Folkehelserapporten: Demens (oppdatert 27.05.2026),https://www.fhi.no/he/fr/folkehelserapporten/ikke-smittsomme/demens/,HUNT4-prevalens × SSB hovedalternativet. Forutsetter stabil aldersspesifikk forekomst
+2040,personer_med_demens,185000,persons,projection,FHI Folkehelserapporten: Demens (oppdatert 27.05.2026),https://www.fhi.no/he/fr/folkehelserapporten/ikke-smittsomme/demens/,
+2050,personer_med_demens,225000,persons,projection,FHI Folkehelserapporten: Demens (oppdatert 27.05.2026),https://www.fhi.no/he/fr/folkehelserapporten/ikke-smittsomme/demens/,Om lag 225 000 — nesten en dobling fra 2025
+,andel_langtidsbeboere_sykehjem_med_demens,80,percent,estimate,FHI Folkehelserapporten: Demens (oppdatert 27.05.2026),https://www.fhi.no/he/fr/folkehelserapporten/ikke-smittsomme/demens/,«I overkant av 80 prosent» av langtidsbeboere i sykehjem har demens. År ikke oppgitt
+2020,andel_med_demens_hjemmeboende,67,percent,estimate,FHI Folkehelserapporten: Demens (oppdatert 27.05.2026),https://www.fhi.no/he/fr/folkehelserapporten/ikke-smittsomme/demens/,«To tredeler» av om lag 100 000 med demens bodde hjemme i 2020

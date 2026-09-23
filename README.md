@@ -12,7 +12,7 @@ Leseren er en profesjonell investor, ikke retail. Fondet er evigvarende og ubel�
 
 ## data/
 
-Åtte CSV-er. Bruk dem som de er. Ikke finn på tall.
+Ti CSV-er. Bruk dem som de er. Ikke finn på tall.
 
 - `evergreen-fund-facts.csv` — offentlige fakta til hero, faktaboks og disclaimer (Estate Nyheter 26. mai 2026, REQ LinkedIn, req.no).
 - `norway-population-80plus.csv` — 80+ i Norge, observert 2010–2026 (SSB 07459) og framskrevet 2027–2050 (SSB 14288 MMMM).
@@ -20,6 +20,8 @@ Leseren er en profesjonell investor, ikke retail. Fondet er evigvarende og ubel�
 - `norway-care-capacity.csv` — sykehjemsplasser 2021–2025, tilnærmet flate mens 80+ vokser (SSB KOSTRA). To rader `derived_illustration`: plasser som trengs i 2040 og 2050 for å holde 2025-dekningen. Regneeksempel, ikke SSB-prognose.
 - `norway-old-age-support.csv` — personer 20–64 per person 80+, 2024–2050, pluss 90+ (SSB 14288 MMMM). Fra 12,8 til 5,6 i yrkesaktiv alder per 80+.
 - `norway-80plus-by-county.csv` — 80+ per fylke 2024, 2030, 2040 og 2050 (SSB 14288 MMMM). Alle fylker dobler seg eller mer innen 2050.
+- `norway-dementia.csv` — personer med demens 2025–2050, fra ca. 115 000 til ca. 225 000 (FHI Folkehelserapporten). Over 80 % av langtidsbeboere i sykehjem har demens.
+- `norway-cpi.csv` — konsumprisindeksen 2015–2025 og siste 12-månedersendring (SSB 14711 og 14710). +37,7 % fra 2015 til 2025.
 - `yield-context.csv` — 10-års statsrente (OECD/FRED, Norges Bank) mot avkastningsmål 6–8 %, pluss prime-yield som meglerestimat (JLL, CBRE).
 - `evergreen-real-estate-fund.csv` — seks offentlige referansepunkter for målsektorene. Alle rader har `is_evergreen_holding=nei`.
 
@@ -59,7 +61,7 @@ Lenk inn theme/tokens.css. Logo: theme/assets/req-logo-navy.svg på hvitt, req-l
 Hvit bakgrunn, navy via token, bokmål, rolig vi-form.
 5 mrd. er REQ-plattformen, ikke fondet.
 Ingen git, npm, deploy. Ikke pakk TT Hoves Pro. Én HTML + ev. app.js.
-Chart-plassholdere med id: chart-80plus, chart-age, chart-care, chart-support, chart-county, chart-yield.
+Chart-plassholdere med id: chart-80plus, chart-age, chart-care, chart-support, chart-county, chart-dementia, chart-cpi, chart-yield.
 Stopp når siden åpner.
 ```
 
@@ -77,7 +79,7 @@ Grafer: Chart.js eller uPlot fra CDN. Farger og avstand fra `theme/tokens.css`. 
 
 - **Tese.** Demografi og strategisk beliggenhet. Sektorer: eldre/omsorg/helse, forskning/utdanning, beredskap, dagligvare, forsyning.
 - **Team.** Per Sverdrup Løken, 14 år NBIM eiendom. Det er hans historikk, ikke fondets.
-- **Grafer fra `data/`.** 80+ observert (heltrukket) og framskrevet (stiplet). 0–19 mot 65+ med 2031-krysset. Sykehjemsplasser som flater ut, mot plassene som trengs for å holde 2025-dekningen (merket regneeksempel). Yrkesaktive per 80+ som faller fra 12,8 til 5,6. 80+-vekst per fylke 2024–2050. Statsrente mot mål 6–8 %, med prime office/logistikk merket meglerestimat.
+- **Grafer fra `data/`.** 80+ observert (heltrukket) og framskrevet (stiplet). 0–19 mot 65+ med 2031-krysset. Sykehjemsplasser som flater ut, mot plassene som trengs for å holde 2025-dekningen (merket regneeksempel). Yrkesaktive per 80+ som faller fra 12,8 til 5,6. 80+-vekst per fylke 2024–2050. Personer med demens mot 2050. KPI-vekst som inflasjonsbakteppe for leieinntekt. Statsrente mot mål 6–8 %, med prime office/logistikk merket meglerestimat.
 - **Disclaimer.** Markedsmateriell, ikke et tilbud.
 
 Kart eller kort fra sektorfilen er supplement. Hvis noe må kuttes: behold grafene.
@@ -94,6 +96,8 @@ Bare offentlige fakta. Ikke Drive `1_Inputs`. Ikke upublisert pipeline.
 - Ingen prosentallokering. Ikke finn på en kake.
 - JLL/CBRE-yield er andres estimat, ikke «vår yield».
 - Regneeksempel på sykehjemsplasser er ikke en SSB-prognose. Merk det.
+- Demenstallene er FHIs estimat og framskriving, ikke SSB-tall. Oppgi FHI som kilde.
+- KPI er inflasjon i Norge, ikke fondets leieinntekt. Ikke påstå at fondets kontrakter er KPI-regulert.
 - Skill observert og framskrevet. SSB 07459 og 14288 avviker litt i 2025–26 — si det.
 
 ## GitHub og deploy
