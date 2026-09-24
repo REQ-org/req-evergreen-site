@@ -1,0 +1,7 @@
+{
+  "buildCommand": "rm -rf public && mkdir public && cp -r site public/site && mkdir public/theme && cp theme/tokens.css public/theme/ && cp -r theme/assets public/theme/assets",
+  "outputDirectory": "public",
+  "installCommand": "",
+  "framework": null,
+  "redirects": [{ "source": "/", "destination": "/site/", "permanent": false }]
+}
