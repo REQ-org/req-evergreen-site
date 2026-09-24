@@ -15,6 +15,26 @@ Arbeidsmappe for REQ AI Bootcamp-økten **Claude Code – Intro**. Vi bygger en 
 
 Siden havner i `site/` og åpnes ved å dobbeltklikke `site/index.html`.
 
+## Forslag til hva du kan be om
+
+Bruk dem som de er, eller skriv med egne ord. Rekkefølgen er bare et forslag.
+
+**Kom i gang**
+- `Før du bygger noe: les mappen og fortell meg hvilken historie tallene forteller.`
+- `Lag en plan for siden først. Vis meg planen før du skriver kode.`
+
+**Gjør den bedre**
+- `Hero-seksjonen føles generisk. Gi meg tre helt ulike retninger, og bygg den du tror på.`
+- `Gjør grafen over 80+ interaktiv, slik at jeg kan se tallet for hvert år.`
+- `Legg til et fylkesvalg: velg fylke og se hvor mye 80+ vokser der mot 2050.`
+- `Les teksten som en skeptisk pensjonsforvalter. Hva overbeviser ikke? Skriv det om.`
+- `Her er et skjermbilde av noe jeg liker. Hent stemningen, men behold REQ-profilen.` (dra et bilde inn i terminalen)
+
+**Sjekk den**
+- `Gå gjennom siden mot reglene i CLAUDE.md. Er det tall eller påstander vi ikke har dekning for?`
+- `Hvordan ser siden ut på mobil? Fiks det som brekker.`
+- `Forklar meg hvordan siden er bygget, som om jeg aldri har kodet.`
+
 ## Innhold
 
 - `data/` — offentlige tall (SSB, FHI, Norges Bank m.fl.) som CSV, med kilde per rad.
