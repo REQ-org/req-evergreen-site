@@ -15,6 +15,34 @@ Struktur, rekkefølge, grafer og interaksjon velger du selv. Siden skal fremstå
 - Interaktivitet skal hjelpe leseren å forstå, ikke pynte: hover på grafer, veksling mellom visninger, fylkesvalg og lignende.
 - Før du sier du er ferdig: se på siden, nevn de tre tingene som ser mest generiske ut, og fiks dem.
 
+## Grafer
+
+Grafene er det viktigste på siden. Må noe kuttes, behold grafene.
+
+**Historier dataene kan fortelle** (inspirasjon, ikke en liste som må krysses av):
+
+- **Flere eldre:** 80+ fra 2010 til 2050, der observert og framskrevet henger sammen.
+- **Krysset i 2031:** 65+ passerer 0–19. Det er ett tydelig årstall å bygge en overskrift på.
+- **Kapasiteten henger etter:** sykehjemsplassene står nesten stille mens 80+ vokser. Plassene som trengs for å holde 2025-dekningen gjør gapet synlig (merket som regneeksempel).
+- **Færre til å bære:** yrkesaktive per 80+ faller fra 12,8 til 5,6. Et stort tall kan slå en graf.
+- **Hele landet:** alle fylker dobler 80+ eller mer innen 2050. Egner seg for fylkesvalg eller sortert rangering.
+- **Demens:** fra om lag 115 000 til 225 000 (FHI).
+- **Inflasjon som bakteppe:** KPI +37,7 % fra 2015 til 2025.
+- **Renten og målet:** tiårig statsrente mot et avkastningsmål på 6–8 %, med prime-yield som meglerestimat.
+- **Hvor tesen lever:** referanseeiendommene på et kart, som supplement.
+
+**Retningslinjer**
+
+- Én graf, ett poeng. Overskriften er poenget; grafen er beviset.
+- Færre og sterkere: fire–fem gode grafer slår ni middels. Ikke alle CSV-er trenger en graf.
+- Annotér direkte i grafen (årstall, krysningspunkt, sluttverdi) fremfor forklaringsbokser.
+- Navy for serien som bærer poenget, grått for kontekst. Farger fra `--req-chart-*` i `tokens.css`.
+- Observert heltrukket, framskrevet stiplet. Kilde og år under hver graf.
+- Ærlige akser: søyler starter på null. Ikke strekk en linje for å overdrive.
+- 6–8 % vises som et bånd merket «Mål», aldri som en linje som ligner historisk avkastning.
+- Interaksjon skal gi innsikt: eksakt tall og kilde på hover, veksling mellom absolutt og indeksert, valg av fylke. Ingen animasjon for animasjonens skyld.
+- Grafene skal være lesbare på mobil.
+
 ## Harde regler
 
 Dette er markedsmateriell for et fond. Reglene er ikke forhandlbare.
@@ -34,4 +62,4 @@ Dette er markedsmateriell for et fond. Reglene er ikke forhandlbare.
 - Derfor: les CSV-ene og skriv tallene til en `site/data.js` (`window.DATA = {...}`), lastet med vanlig `<script>`. Ikke `fetch()` og ikke `type="module"` — begge feiler fra `file://`.
 - Biblioteker fra CDN (cdnjs, jsdelivr) er greit, for eksempel Chart.js.
 - Font: velg en Google Font som ligger nær TT Hoves Pro (ren grotesk), med fallback til systemfont. Ikke pakk eller last ned TT Hoves Pro.
-- Når siden fungerer, åpne den i deltakerens standard nettleser.
+- Når siden fungerer, åpne den i nettleseren og se på den selv før du viser den frem.
