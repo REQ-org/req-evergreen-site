@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>REQ Evergreen Income Fund</title>
+<meta name="description" content="REQ Evergreen Income Fund: evigvarende og ubelånt eiendomsfond for demografi og strategisk beliggenhet. Markedsmateriell for profesjonelle investorer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="../theme/tokens.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <span class="fundname">REQ Evergreen Income Fund</span>
+    <nav aria-label="Innhold">
+      <a href="#demografi">Demografi</a>
+      <a href="#kapasitet">Kapasitet</a>
+      <a href="#fylker">Fylker</a>
+      <a href="#rente">Rente og mål</a>
+      <a href="#team">Team</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" aria-label="Innledning">
+  <div class="wrap">
+    <h1>Norge får mer enn dobbelt så mange over&nbsp;80. Byggene de trenger, skal stå i generasjoner.</h1>
+    <p class="lede">REQ Evergreen Income Fund investerer i eiendom som støtter demografiske endringer, og eiendom med strategisk beliggenhet for formålet. Fondet er evigvarende og ubelånt. Målet er langsiktig leieinntekt.</p>
+    <div class="hero-foot">
+      <img class="logo" src="../theme/assets/req-logo-white.svg" alt="REQ">
+      <dl class="hero-facts">
+        <div><dt>Lansert</dt><dd>Mai 2026</dd></div>
+        <div><dt>Struktur</dt><dd>Evigvarende</dd></div>
+        <div><dt>Belåning</dt><dd>Ubelånt</dd></div>
+        <div><dt>Avkastningsmål</dt><dd>6–8&nbsp;% per år</dd></div>
+      </dl>
+    </div>
+  </div>
+  <span class="hero-credit">Foto: REQ Capital</span>
+</section>
+
+<main>
+
+<!-- Tese -->
+<section id="tese">
+  <div class="wrap grid">
+    <div class="kicker"><b>Tesen</b>To søyler</div>
+    <div class="main">
+      <h2>Behovet er gitt av alderen. Adressen er gitt av formålet.</h2>
+      <p class="lead">Vi investerer der etterspørselen følger av befolkningen og der bygget ikke kan flyttes. Tallene under er offentlige: SSB, FHI, Norges Bank og meglerhusenes egne estimater.</p>
+      <table class="thesis">
+        <thead><tr><th>Søyle</th><th>Målsektorer</th><th>Hva tallene viser</th></tr></thead>
+        <tbody>
+          <tr>
+            <th>Eiendom som støtter demografiske endringer</th>
+            <td>Eldre og omsorg<br>Helse</td>
+            <td><a href="#demografi">80+ mer enn dobles til 2050</a><br><a href="#kapasitet">Sykehjemsplassene står stille</a><br><a href="#fylker">Veksten gjelder alle fylker</a></td>
+          </tr>
+          <tr>
+            <th>Eiendom med strategisk beliggenhet for formålet</th>
+            <td>Forskning og utdanning<br>Beredskap<br>Dagligvare<br>Forsyningslinjer</td>
+            <td><a href="#kart">Byggene er bundet til stedet de står</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- 01 80+ -->
+<section id="demografi">
+  <div class="wrap grid">
+    <div class="kicker"><b>01</b>Befolkning 80 år og eldre</div>
+    <div class="main">
+      <h2>Antallet over 80 år mer enn dobles fra 2024 til 2050</h2>
+      <p>I 2024 var <span class="num">256 485</span> nordmenn 80 år eller eldre. SSB framskriver <span class="num">590 856</span> i 2050. Veksten har allerede begynt: fra 2020 til 2026 kom det over <span class="num">54 000</span> flere.</p>
+      <figure class="chart" id="chart-80">
+        <div class="chart-head">
+          <div>
+            <p class="chart-title">Personer 80 år og eldre, hele landet, 1. januar</p>
+            <ul class="legend" aria-label="Forklaring">
+              <li><svg width="22" height="8"><line x1="0" y1="4" x2="22" y2="4" stroke="var(--req-navy)" stroke-width="2"/></svg>Observert</li>
+              <li><svg width="22" height="8"><line x1="0" y1="4" x2="22" y2="4" stroke="var(--req-navy)" stroke-width="2" stroke-dasharray="5 4"/></svg>Framskrevet, hovedalternativet</li>
+            </ul>
+          </div>
+          <div class="seg" role="group" aria-label="Visning">
+            <button type="button" data-mode="abs" aria-pressed="true">Antall</button>
+            <button type="button" data-mode="idx" aria-pressed="false">Indeks 2010 = 100</button>
+          </div>
+        </div>
+        <div class="plot"></div>
+        <figcaption>Kilde: SSB tabell 07459 (observert 2010–2026) og SSB tabell 14288, hovedalternativet MMMM (framskrevet fra 2027). Seriene avviker litt der de overlapper: for 2025 framskrev SSB <span class="num">270 742</span> mot observert <span class="num">270 537</span>, for 2026 <span class="num">284 670</span> mot <span class="num">284 939</span>. Grafen viser observert der det finnes.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- 02 Krysset -->
+<section id="krysset">
+  <div class="wrap grid">
+    <div class="kicker"><b>02</b>Aldersstruktur</div>
+    <div class="main">
+      <h2>I 2031 er det flere over 65 enn under 20</h2>
+      <p>Det skjer for første gang. Deretter øker avstanden: i 2050 er det om lag <span class="num">357 000</span> flere over 65 enn under 20, mens antallet barn og unge er omtrent det samme som i dag.</p>
+      <figure class="chart" id="chart-cross">
+        <div class="chart-head">
+          <div>
+            <p class="chart-title">Personer etter aldersgruppe, hele landet</p>
+            <ul class="legend" aria-label="Forklaring">
+              <li><svg width="22" height="8"><line x1="0" y1="4" x2="22" y2="4" stroke="var(--req-navy)" stroke-width="2" stroke-dasharray="5 4"/></svg>65 år og eldre</li>
+              <li><svg width="22" height="8"><line x1="0" y1="4" x2="22" y2="4" stroke="var(--req-chart-4)" stroke-width="2" stroke-dasharray="5 4"/></svg>0–19 år</li>
+            </ul>
+          </div>
+        </div>
+        <div class="plot"></div>
+        <figcaption>Kilde: SSB tabell 14288, hovedalternativet MMMM (2024-framskrivingen). 2024 er startåret; 2031, 2040 og 2050 er framskrevet og derfor stiplet. SSB oppgir 2031 som første år med flere 65+ enn 0–19.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- 03 Kapasitet -->
+<section id="kapasitet">
+  <div class="wrap grid">
+    <div class="kicker"><b>03</b>Sykehjemskapasitet</div>
+    <div class="main">
+      <h2>Sykehjemsplassene står stille mens 80+ vokser</h2>
+      <p>Fra 2021 til 2025 økte antallet over 80 med 14&nbsp;%. Antallet sykehjemsplasser økte med 1,7&nbsp;%. Skal dekningen fra 2025 holdes, trengs om lag <span class="num">86 800</span> plasser i 2050. Det er mer enn en dobling.</p>
+      <figure class="chart" id="chart-care">
+        <div class="chart-head">
+          <div>
+            <p class="chart-title" data-title-idx="Indeks 2021 = 100. Observert til 2025, 80+ framskrevet til 2030" data-title-abs="Sykehjemsplasser: observert og regneeksempel">Indeks 2021 = 100. Observert til 2025, 80+ framskrevet til 2030</p>
+            <ul class="legend" data-view="idx" aria-label="Forklaring">
+              <li><svg width="22" height="8"><line x1="0" y1="4" x2="22" y2="4" stroke="var(--req-navy)" stroke-width="2"/></svg>Personer 80+</li>
+              <li><svg width="22" height="8"><line x1="0" y1="4" x2="22" y2="4" stroke="var(--req-chart-4)" stroke-width="2"/></svg>Disponible sykehjemsplasser</li>
+            </ul>
+            <ul class="legend" data-view="abs" hidden aria-label="Forklaring">
+              <li><svg width="14" height="12"><rect x="1" y="1" width="12" height="10" fill="var(--req-chart-4)"/></svg>Observert</li>
+              <li><svg width="14" height="12"><rect x="1" y="1" width="12" height="10" fill="var(--req-mist)" stroke="var(--req-navy)" stroke-width="1.5" stroke-dasharray="3 2"/></svg>Regneeksempel: plasser ved 2025-dekning</li>
+            </ul>
+          </div>
+          <div class="seg" role="group" aria-label="Visning">
+            <button type="button" data-mode="idx" aria-pressed="true">Utvikling</button>
+            <button type="button" data-mode="abs" aria-pressed="false">Plasser som trengs</button>
+          </div>
+        </div>
+        <div class="plot"></div>
+        <figcaption>Kilde: SSB KOSTRA, sjukeheimar (disponible plasser per 31.12) og SSB tabell 07459 (80+ per 1.1). Regneeksempel, ikke SSB-prognose: dekningen i 2025, 14,7 plasser per 100 personer over 80, ganget med SSBs framskrevne 80+ i 2040 og 2050 (tabell 14288, MMMM).</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- 04 Store tall -->
+<section id="baere">
+  <div class="wrap grid">
+    <div class="kicker"><b>04</b>Omsorgsbehov</div>
+    <div class="main">
+      <h2>Færre skal bære, og flere trenger tilrettelagte bygg</h2>
+      <div class="figures">
+        <div class="figure">
+          <div class="big"><span class="from">12,8</span><span class="arrow">→</span><span>5,6</span></div>
+          <h3>personer i alderen 20–64 år per person over 80, fra 2024 til 2050</h3>
+          <div class="plot" id="chart-support"></div>
+          <p class="src">Kilde: SSB tabell 14288, hovedalternativet MMMM. 2024 er startåret, resten er framskrevet.</p>
+        </div>
+        <div class="figure">
+          <div class="big"><span class="from">115&nbsp;000</span><span class="arrow">→</span><span>225&nbsp;000</span></div>
+          <h3>personer med demens, fra 2025 til 2050</h3>
+          <div class="plot" id="chart-dementia"></div>
+          <p>I overkant av 80&nbsp;% av langtidsbeboerne i sykehjem har demens. To av tre med demens bodde hjemme i 2020. Begge deler stiller krav til hvordan byggene er utformet.</p>
+          <p class="src">Kilde: FHI, Folkehelserapporten: Demens (oppdatert 27.05.2026). Estimat for 2025 og framskriving som forutsetter stabil aldersspesifikk forekomst (HUNT4 × SSB hovedalternativet).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 05 Fylker -->
+<section id="fylker">
+  <div class="wrap grid">
+    <div class="kicker"><b>05</b>Hele landet</div>
+    <div class="main">
+      <h2>Alle fylker dobler antallet over 80 innen 2050</h2>
+      <p>Veksten er ikke et Oslo-fenomen. Lavest er Innlandet med +102&nbsp;%, høyest Akershus med +159&nbsp;%. Velg et fylke for å se forløpet.</p>
+      <figure class="chart" id="chart-county">
+        <div class="chart-head">
+          <p class="chart-title" data-title-pct="Vekst i antall 80+, 2024–2050" data-title-abs="Personer 80+ i 2024 og 2050">Vekst i antall 80+, 2024–2050</p>
+          <div class="seg" role="group" aria-label="Visning">
+            <button type="button" data-mode="pct" aria-pressed="true">Vekst i prosent</button>
+            <button type="button" data-mode="abs" aria-pressed="false">Antall</button>
+          </div>
+        </div>
+        <div class="county-layout">
+          <div class="plot"></div>
+          <aside class="county-panel" aria-live="polite">
+            <label for="county-select" class="chart-sub">Fylke</label>
+            <select id="county-select"></select>
+            <div class="growth"></div>
+            <div class="growth-sub"></div>
+            <div class="plot" id="county-mini"></div>
+          </aside>
+        </div>
+        <figcaption>Kilde: SSB tabell 14288, hovedalternativet MMMM. Fylkesinndeling 2024. 2024 er startåret; 2030, 2040 og 2050 er framskrevet.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- 06 Struktur og rente -->
+<section id="rente">
+  <div class="wrap grid">
+    <div class="kicker"><b>06</b>Struktur og rente</div>
+    <div class="main">
+      <h2>Et evigvarende fond har ingen tvungen exit</h2>
+      <p class="lead">Behovet vi beskriver strekker seg over tiår. Fondets struktur er valgt for å passe den horisonten, og for investorer med lange forpliktelser: pensjonskasser, livselskaper og stiftelser.</p>
+      <dl class="terms">
+        <div><dt>Evigvarende</dt><dd>Ingen fast levetid og ingen tvungen salgsdato. Eiendommene kan eies så lenge de tjener formålet.</dd></div>
+        <div><dt>Ubelånt</dt><dd>Ingen gjeld i strukturen. Leieinntekten går til eierne, ikke til å betjene lån.</dd></div>
+        <div><dt>Mål 6–8&nbsp;% per år</dt><dd>Et avkastningsmål. Det er ikke et resultat eller en garanti.</dd></div>
+      </dl>
+
+      <p class="chart-claim">Avkastningsmålet ligger over dagens tiårige statsrente og meglernes anslag for prime yield</p>
+      <figure class="chart" id="chart-rate" style="margin-top: var(--req-space-lg)">
+        <div class="chart-head">
+          <div>
+            <p class="chart-title">Tiårig statsrente, prime yield og fondets avkastningsmål, prosent</p>
+            <ul class="legend" aria-label="Forklaring">
+              <li><svg width="22" height="8"><line x1="0" y1="4" x2="22" y2="4" stroke="var(--req-navy)" stroke-width="2"/></svg>Tiårig statsrente</li>
+              <li><svg width="12" height="12"><rect x="2" y="2" width="8" height="8" transform="rotate(45 6 6)" fill="var(--req-white)" stroke="var(--req-chart-4)" stroke-width="1.5"/></svg>Prime yield, meglerestimat</li>
+              <li><svg width="16" height="12"><rect x="0" y="0" width="16" height="12" fill="var(--req-mist)"/></svg>Mål for fondet</li>
+              <li class="cpi-leg" hidden><svg width="22" height="8"><line x1="0" y1="4" x2="22" y2="4" stroke="var(--req-chart-4)" stroke-width="1.5"/></svg>Inflasjon, KPI årlig endring</li>
+            </ul>
+          </div>
+          <label class="toggle"><input type="checkbox" id="cpi-toggle"><span>Vis inflasjon</span></label>
+        </div>
+        <div class="plot"></div>
+        <figcaption>Kilder: OECD via FRED (tiårig statsrente, årsgjennomsnitt 2015–2025); Norges Bank (generisk tiårig statsrente, dagsobservasjon 16. september 2026); JLL Office Nordics 2025 og CBRE Norway I&amp;L H1 2025 (prime yield, meglerestimat, ikke fondets yield); Estate Nyheter 26. mai 2026 (avkastningsmål); SSB tabell 14711 (KPI). Målet er vist som et bånd fra lanseringen og er ikke historisk avkastning. KPI er inflasjon, ikke fondets leieinntekt.</figcaption>
+      </figure>
+      <p style="margin-top: var(--req-space-xl)">Konsumprisene steg <b>37,7&nbsp;%</b> fra 2015 til 2025 (SSB tabell 14711). For en eier med lang horisont er det bakteppet leieinntekten må vurderes mot.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 07 Kart -->
+<section id="kart">
+  <div class="wrap grid">
+    <div class="kicker"><b>07</b>Hvor tesen lever</div>
+    <div class="main">
+      <h2>Byggene tesen gjelder, kan ikke flyttes</h2>
+      <p>Et sykehjem, et universitetssykehus, en campus, et beredskapsmiljø, en dagligvarekjede og en havn. Adressene under er offentlige referansepunkter som viser hva slags eiendom de to søylene handler om. Ingen av dem er fondets eiendommer.</p>
+      <div class="map-layout">
+        <div>
+          <div class="seg map-views" role="group" aria-label="Kartutsnitt">
+            <button type="button" data-view="oslo" aria-pressed="true">Oslo</button>
+            <button type="button" data-view="all" aria-pressed="false">Alle punkter</button>
+          </div>
+          <div id="map" role="region" aria-label="Kart over referansepunkter"></div>
+        </div>
+        <ol class="ref-list" id="ref-list"></ol>
+      </div>
+      <p class="chart-sub" style="margin-top: var(--req-space-md)">Kilde: offentlige adresser fra virksomhetenes egne nettsider. Kart: © Esri.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 08 Team -->
+<section class="team" id="team">
+  <div class="wrap grid">
+    <div class="kicker"><b>08</b>Teamet</div>
+    <div class="main">
+      <h2>Forvalteren har 14 år bak seg i Oljefondets eiendomsforvaltning</h2>
+      <div class="team-grid">
+        <div>
+          <div class="stat">14 år</div>
+          <h3>Per Sverdrup Løken, forvalter</h3>
+          <p>Fjorten år i NBIM eiendom, sist som medansvarlig for globale eiendomsinvesteringer.</p>
+          <p class="fine">Erfaringen er fra NBIM. Den er ikke fondets historikk.</p>
+        </div>
+        <div>
+          <div class="stat">5 mrd. kr</div>
+          <h3>REQ-plattformen</h3>
+          <p>Siden 2020 har REQ bygd opp om lag 5 mrd. kr i forvaltning. Evergreen bredder ut plattformen med et evigvarende fond.</p>
+          <p class="fine">Tallet gjelder hele REQ-plattformen, ikke REQ Evergreen Income Fund.</p>
+        </div>
+      </div>
+      <blockquote>«Med etableringen av REQ Evergreen tar vi et nytt steg og bredder ut investeringsplattformen.»
+        <footer>Johan Hamre, CEO, til Estate Nyheter 26. mai 2026</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <img class="logo" src="../theme/assets/req-logo-white.svg" alt="REQ">
+      </div>
+      <div>
+        <h4>Kontor</h4>
+        <p>Sommerrogata 17, Oslo<br>Kungsgatan 8, Stockholm<br><a href="https://req.no">req.no</a></p>
+      </div>
+      <div>
+        <h4>For</h4>
+        <p>Pensjonskasser, livselskaper, stiftelser og andre profesjonelle investorer.</p>
+      </div>
+    </div>
+    <div class="disclaimer">
+      <h4>Viktig informasjon</h4>
+      <p>Dette er markedsmateriell for profesjonelle investorer. Det er ikke et tilbud om eller en oppfordring til å kjøpe eller tegne andeler, og det er ikke investeringsrådgivning. 6–8&nbsp;% per år er fondets avkastningsmål. Det er ikke et resultat, en prognose eller en garanti. Historisk utvikling i makrotall, renter og markedsyield sier ikke noe om fremtidig avkastning. Framskrivinger fra SSB og FHI bygger på forutsetninger som kan slå feil. Prime yield fra JLL og CBRE er meglerhusenes estimater, ikke fondets yield. Adressene på kartet er offentlige referansepunkter, ikke fondets eiendommer. 5 mrd. kr gjelder REQ-plattformen samlet. Investering i eiendomsfond innebærer risiko, og investorer kan tape hele eller deler av det investerte beløpet.</p>
+      <h4 style="margin-top: var(--req-space-lg)">Kilder</h4>
+      <ul class="sources">
+        <li><a href="https://www.ssb.no/statbank/table/07459">SSB tabell 07459</a>: befolkning 1. januar</li>
+        <li><a href="https://www.ssb.no/statbank/table/14288">SSB tabell 14288</a>: befolkningsframskrivinger, hovedalternativet MMMM</li>
+        <li><a href="https://www.ssb.no/helse/helsetjenester/statistikk/sjukeheimar-heimetenester-og-andre-omsorgstenester">SSB KOSTRA</a>: sjukeheimar, heimetenester og andre omsorgstenester</li>
+        <li><a href="https://www.fhi.no/he/fr/folkehelserapporten/ikke-smittsomme/demens/">FHI Folkehelserapporten</a>: demens</li>
+        <li><a href="https://www.ssb.no/statbank/table/14711">SSB tabell 14711</a>: konsumprisindeks</li>
+        <li><a href="https://fred.stlouisfed.org/series/IRLTLT01NOA156N">OECD via FRED</a>: tiårig statsrente</li>
+        <li><a href="https://www.norges-bank.no/en/topics/Statistics/norwegian-government-securities/generiske-statsrenter/">Norges Bank</a>: generiske statsrenter</li>
+        <li><a href="https://www.jll.com/en-us/insights/market-outlook/nordics-office">JLL</a> og <a href="https://www.cbre.no/en-gb/insights/figures/norway-industrial-and-logistics-market-figures-h1-2024">CBRE</a>: prime yield, meglerestimat</li>
+        <li><a href="https://www.estatenyheter.no/karriere-req/req-lanserer-nytt-eiendomsfond-henter-toppforvalter-fra-oljefondet/507530">Estate Nyheter 26. mai 2026</a>: fondsfakta og sitat</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+</body>
+</html>
