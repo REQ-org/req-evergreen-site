@@ -34,7 +34,7 @@ REQ-look: `tokens.css` (farger, type, avstand), `brand.md`, logoer og foto-kilde
 Klon repoet og åpne mappen:
 
 ```bash
-git clone https://github.com/mainquest-labs/req-evergreen-site.git
+git clone https://github.com/REQ-org/req-evergreen-site.git
 cd req-evergreen-site
 claude
 ```
