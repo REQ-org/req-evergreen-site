@@ -46,7 +46,6 @@ Files in `assets/`:
 
 - `req-logo-navy.svg` / `req-logo-white.svg` — vector (white version published at
   req.no/wp-content/uploads/2026/05/req-white-rgb.svg; navy derived by recoloring to `#001D6C`).
-- `req-logo-navy.png` — 2560×1067 raster, solid `#001D6C`.
 
 The mark is a dotted globe + "REQ" wordmark, tagline "Investing with insight. Building what's next."
 Use navy on white, white on navy/petrol/photo. Give it clear space; never recolor outside

@@ -31,7 +31,7 @@ h1, a, .kpi { color: var(--req-navy); }
 ```
 
 - Hero: full-bleed foto, hvit logo nederst til venstre, kort tittel over. Navy på hvit i resten av siden.
-- Én HTML + `tokens.css`. Chart.js eller uPlot fra CDN. Ingen npm, ingen gradient, ingen lilla, ingen emoji.
-- **TT Hoves Pro** er lisensiert til REQ. Ikke last ned eller pakk fontfilene. Stacken i `tokens.css` faller tilbake til Open Sans / Arial.
+- HTML, CSS og JS uten byggesteg. Biblioteker fra CDN. Ingen gradient, ingen lilla, ingen emoji.
+- **TT Hoves Pro** er lisensiert til REQ. Ikke last ned eller pakk fontfilene. Bruk en Google Font som ligger nær (ren grotesk) foran stacken i `tokens.css`.
 
 Se `brand.md` for det fulle regelsettet.
